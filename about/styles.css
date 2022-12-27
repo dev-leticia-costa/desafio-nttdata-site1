@@ -1,0 +1,61 @@
+
+body {
+  background-color: #94d8e4;
+  display: flex;
+  justify-content: center;
+  font-family: OpenSans,Arial,sans-serif;
+  margin-right: 100px;
+
+}
+  
+a{
+  all: unset;
+  cursor: pointer;
+  word-wrap: normal;
+  writing-mode: horizontal-tb;
+  
+}
+a:hover{
+  color: blue;
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+  
+}
+.wrapper {
+ display: flex;
+  margin-top: 30px;
+ 
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  margin-top: 150px;
+  font-size: 25px;
+    
+}
+
+/*take off bullet points css */
+ul {
+list-style-type: none;
+}
+li{
+  margin-block: 10px;
+  line-break: normal;
+}
+.footer {
+  
+  text-align: center;
+  background-color: rgb(84, 146, 146);
+  color: white;
+}
